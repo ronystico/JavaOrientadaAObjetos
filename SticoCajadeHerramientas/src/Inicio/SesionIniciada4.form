@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="menuBar">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="HerramientasMenu">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Herramientas"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="T0">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. Tareas del Tutor"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="1. Verificador de Fechas"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Herramienta para saber si una fecha es correcta...&#xa;Acepta a&#xf1;os bisiestos"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="2. N&#xf3;mina Salarial"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;Calcula la nomina salarial neta de unos obreros cuyo trabajo se paga en horas&#xa;&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;El calculo se realiza de la siguiente manera: &#xa;&lt;br/&gt;&#xa;- Las primeras 35 horas a una tasa fija 50 pesos&#xa;&lt;br/&gt;&#xa;-Las horas extras se calculan: tarifa fija + el 1.5 por ciento de la tarifa fija&#xa;&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;Los impuestos a deducir de los trabajadores var&#xed;an seg&#xfa;n el sueldo mensual:&#xa;&lt;br/&gt;&#xa;- Si el sueldo es menos de 20,000, el sueldo es libre de impuestos&#xa;&lt;br/&gt;&#xa;- Al contrario se cobra un 20% de impuestos&#xa;&lt;/p&gt;&#xa;&lt;body&gt;&#xa;&lt;html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="A0">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. Curso de Java - Juan Carlos Arcila D&#xed;az"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="1. &#xc1;rea del c&#xed;rculo"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Encuentra el &#xe1;rea de un c&#xed;rculo usando la f&#xf3;rmula&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;A= Pi . r^2 donde&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;A = &#xc1;rea del C&#xed;rculo&lt;br/&gt;&#xa;Pi = 3.14159&lt;br/&gt;&#xa;r (radio) = Es el radio del C&#xed;rculo&lt;br/&gt;&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="2. Potencia"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Hallar la potencia a^n, donde a y n pertenecen a Z^+ (N&#xfa;meros enteros positivos);&lt;br/&gt;&#xa;La base a y el exponente n deben ser ingresados por el usuario&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="3. Promedio"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Ingresa dos notas de un curso acad&#xe9;mico...&#xa;&lt;br/&gt;&#xa;Se va a calcular y mostrar su promedio&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="4. Ventas"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Ingresar el precio de compra unitario de un Producto,&lt;br/&gt;&#xa;la cantidad de compra de dicho producto; calcular y mostrar&lt;br/&gt;&#xa;el precio parcial (precio unitario * cantidad), el monto del IGV&lt;br/&gt;&#xa;que es el 18% del precio parcial, y el precio neto&lt;br/&gt;&#xa;(precio parcial + Monto del IGV)&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem7ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="5. Registro de Usuarios*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Herramienta de prueba. Disfruta"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem8ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="6. Calcular Inter&#xe9;s"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Calcular el inter&#xe9;s compuesto generado por un capital depositado durante cierta cantidad de tiempo&lt;br/&gt;&#xa;a una tasa de inter&#xe9;s determinada, la f&#xf3;rmula es la siguiente: &lt;br/&gt;&#xa;&lt;br/&gt;&#xa;M= (1+r%)^t . C &lt;br/&gt;&#xa;I=M-C&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;M (Monto) = Suma del capital m&#xe1;s intereses producidos en un tiempo determinado&lt;br/&gt;&#xa;r (Taza de Inter&#xe9;s) = Ganancia que se obtiene por cada 100 unidades monetarias en cada per&#xed;odo de tiempo&lt;br/&gt;&#xa;T (Tiempo) = Per&#xed;odo de tiempo durante el cual se cede el capital&lt;br/&gt;&#xa;C (Capital) = Dinero invertido para generar una ganancia&lt;br/&gt;&#xa;I (Inter&#xe9;s) = Utilidad generada &#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem9ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="7. Calcular Descuento"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Hacer un aplicaci&#xf3;n que permita ingresar el precio unitario de un producto vendido,&lt;br/&gt;&#xa;la cantidad de venta; despu&#xe9;s calcular el precio parcial (precio unitario * cantidad), &lt;br/&gt;&#xa;aplicar un descuento del 7 % s&#xf3;lo si el precio parcial es mayor que  $. 150, &lt;br/&gt;&#xa;al final mostrar tambi&#xe9;n el precio neto (precio parcial &#x2013; descuento).&lt;br/&gt;&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem10ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="8. Promedio de Notas"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Hacer un programa en java que permita ingresar tres notas para un alumno, &lt;br/&gt;&#xa;la nota A que tiene una importancia de 3 cr&#xe9;ditos, la nota B tiene 4 Cr&#xe9;ditos, y &lt;br/&gt;&#xa;la nota C tiene s&#xf3;lo 2 cr&#xe9;ditos; se debe de calcular el promedio teniendo en cuenta las notas &lt;br/&gt;&#xa;y al final si el alumno tiene un promedio igual o mayor a 10.5 mostrar &#x201c;Aprobado&#x201d;, &lt;br/&gt;&#xa;en caso contrario &#x201c;Desaprobado&#x201d;.&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem11ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="9. Utilidad por a&#xf1;os"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Calcular la utilidad que un trabajador recibe en el reparto de utilidades, si a este se le asigna&lt;br/&gt;&#xa;como un porcentaje de su salario mensual que depende de su antig&#xfc;edad en la empresa&lt;br/&gt;&#xa;de acuerdo con lo siguiente:&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;Menos de un a&#xf1;o: 5% del salario&lt;br/&gt;&#xa;1 a&#xf1;o o m&#xe1;s, pero menos de 2 a&#xf1;os: 7% del salario&lt;br/&gt;&#xa;2 a&#xf1;os o m&#xe1;s, pero menos de 5 a&#xf1;os: 10% del salario&lt;br/&gt;&#xa;5 a&#xf1;os o m&#xe1;s, pero menos de 10 a&#xf1;os: 15% del salario&lt;br/&gt;&#xa;10 a&#xf1;os o m&#xe1;s: 20% del salario&lt;br/&gt;&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem12ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem13">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="10. D&#xed;a de la semana"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa; Ingresar un n&#xfa;mero por teclado y determinar su representaci&#xf3;n en un d&#xed;a de la semana.&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;Por ejemplo si se ingresa 3 deber&#xe1; mostrar mi&#xe9;rcoles, si se ingresa 7 deber&#xe1; mostrar domingo.&lt;br/&gt;&#xa;Si se ingresa un n&#xfa;mero fuera del rango entre 1 y 7 mostrar el mensaje &quot;Error intente con un nuevo n&#xfa;mero&quot;.&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem13ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="11. Promedio de Notas 2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem14ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem15">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="12. Tabla Aritm&#xe9;tica"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Hacer un programa en java que permita mostrar la tabla de sumar, restar, multiplicar y dividir&lt;br/&gt;&#xa;de un n&#xfa;mero igresado previamente&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem15ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem16">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="13. Promedio de Notas 3"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Hacer un programa en java que permita validar el ingreso de notas (0-20) para &#x201c;n&#x201d; &lt;br/&gt;&#xa;alumnos, es decir mientras la nota este fuera de ese rango el programa deber&#xe1; indicar&lt;br/&gt;&#xa;al usuario ingresar la nota, hasta que se ingrese la nota correcta; al final mostrar el promedio.&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem16ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem17">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="14. Reparto de Vacunas"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Una organizaci&#xf3;n tiene punto de repartos de vacunas, cada d&#xed;a se registra con cuantas vacunas se inicia. &lt;br/&gt;&#xa;Crear un programa en java que gestione las entregas (validar que la cantidad a entregar no sea mayor que el stock) &lt;br/&gt;&#xa; y de un aviso cuando el stock es inferior a 10 unidades.&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem17ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem18">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="15. Promedio de Notas 4*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Implementar un vector para almacenar las notas del curso de matem&#xe1;tica de 7 alumnos;&lt;br/&gt;&#xa;al final mostrar el promedio de esas notas.&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem18ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem19">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="16. Promedio de Gastos"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Implementar un programa que permita gestionar los gastos de los &#x201c;n&#x201d; d&#xed;as de una persona,&lt;br/&gt;&#xa; los gastos se deben de ingresar con un inputBox; al final se deber&#xe1; mostrar el total de gastos &lt;br/&gt;&#xa; y que d&#xed;a se hizo el mayor gasto.&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem19ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem20">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="17. Stock de Restaurante"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa; Implementar una programa para registrar los datos de venta de un restaurant, &lt;br/&gt;&#xa;se debe almacenar en una matriz el nombre del plato, su precio, y la cantidad disponible.&lt;br/&gt;&#xa;El programa permitir&#xe1; realizar b&#xfa;squedas por el nombre del plato, si existe el plato buscado nos&lt;br/&gt; mostrar&#xe1; su precio y la cantidad disponible para vender, el stock se debe de actualizar por cada venta.&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem20ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem21">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="18. Utilidades para Textos"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Ingresa cualquier texto y se mostrar&#xe1; ese mismo texto en may&#xfa;sculas, min&#xfa;sculas entre otros&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem21ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem22">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="19. C&#xe1;lculos B&#xe1;sicos"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Suma, Resta, Multiplica y Divide dos n&#xfa;meros que ingreses. Es todo&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem22ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem23">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="20. Gesti&#xf3;n de Banco"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Dise&#xf1;ar y programar una aplicaci&#xf3;n que permita gestionar los retiros y dep&#xf3;sitos de &lt;br/&gt;&#xa;la cuenta bancaria de un cliente. Se debe primero gestionar los datos del cliente &lt;br/&gt;&#xa;y cu&#xe1;l es el monto de apertura de la cuenta de ahorros.&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem23ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem24">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="21. Prueba de JClass*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta de prueba. Disfruta o abre otra herramienta m&#xe1;s &#xfa;til&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem24ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem25">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="22. Registro en Empresa"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Programa que registra en una empresa a un cliente o empleado y le dice su sueldo en base&lt;br/&gt;&#xa;a su contrato.&lt;br/&gt;&#xa;El sueldo base es 750.&lt;br/&gt; &#xa;Si el contrato es C el sueldo ser&#xe1; el sueldo base m&#xe1;s 350&lt;br/&gt;&#xa;Si es N el sueldo ser&#xe1; igual al sueldo base m&#xe1;s 750&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;Resumen&lt;br/&gt;&#xa;&lt;br/&gt;&#xa;Si el contrato es C = 750+350&lt;br/&gt;&#xa;Si el contrato es N = 750+750&lt;br/&gt;&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem25ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem26">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="23. Ingresos y Salidas*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta de prueba. Disfruta o abre otra herramienta m&#xe1;s &#xfa;til&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem26ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="PDF0">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3. Fundaci&#xf3;n C&#xf3;digo Libre Dominicano"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem27">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="1. Selecciona Animales*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Selecciona varios animales y se muestran los que hayas seleccionado&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem27ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem28">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="2. Selecciona un Color*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Selecciona UN color y se muestra justo debajo el resultado&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem28ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem29">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="3. Cuadros de Lista*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;S&#xf3;lo da clic en un color y aparecer&#xe1; justo debajo&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem29ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem30">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="4. Cuadros Combinados*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Selecciona un color predeterminado o escribe el que desees en el cuadro y aparecer&#xe1;&lt;br/&gt;&#xa;justo debajo&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem30ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem31">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="5. Toggle Buttons"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Eres due&#xf1;o/a de un hotel y luego de que ingreses un precio base hay unos botones donde&lt;br/&gt;&#xa;eliges m&#xe1;s costos predeterminados para tu pr&#xf3;ximo cliente y justo debajo aparecer&#xe1; el resultado&lt;br/&gt;&#xa;Nota: Los precios tienen &#xed;cono de Euros&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem31ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem32">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="6. Sliders"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Desliza una &#xa8;pelota&#xa8; dentro de una barra e ir&#xe1; apareciendo su resultado instant&#xe1;neamente&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem32ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem33">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="7. Spinner*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Tambi&#xe9;n ca&#xed; redondito cuando pens&#xe9; que era un Spinner de los que se le da vueltas&lt;br/&gt;&#xa;Es s&#xf3;lo un Spinner de Java, puedes abrir otra herramienta m&#xe1;s &#xfa;til&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem33ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem34">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="8. Barra de Desplazamiento"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Parecido al Slider. Desliza una &#xa8;pelota&#xa8; dentro de una barra y te dir&#xe1; el resultado instant&#xe1;neamente&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem34ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem35">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="9. Barra de Menus*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Otra herramienta de prueba. S&#xf3;lo puedes cambiar el color de fondo dentro del men&#xfa; &#xa8;Edici&#xf3;n&#xa8;&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem35ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem36">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="10. Barra de Herramientas*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;S&#xf3;lo funcionan los botones dentro de la barra de herramientas como dice el t&#xed;tulo&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem36ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem37">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="11. Menus Emergentes*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Si haces clic en cualquier sitio tendr&#xe1;s una sorpresita&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem37ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem38">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="12. Seleccionar Archivo"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta que te permite seleccionar un archivo de tu computador y te muestra su ubicaci&#xf3;n exacta&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem38ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem39">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="13. Paneles de Desplazamiento*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta que ajusta un contenido muy grande en una ventana muy peque&#xf1;a&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem39ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem40">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="14. Paneles de Desplazamiento 2*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Al igual que la herramienta de arriba&lt;br/&gt;&#xa;Herramienta que ajusta un contenido muy grande en una ventana muy peque&#xf1;a&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem40ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem41">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="15. Parqueo"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Ahora eres due&#xf1;o/a de un parqueo. Esta herramienta sirve para que cuentes los autos&lt;br/&gt;&#xa;que entran y salen&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem41ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem42">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="16. Calculadora B&#xe1;sica"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Calculadora muy b&#xe1;sica. S&#xf3;lo sabe sumar y restar&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem42ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem43">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="17. BorderLayout*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta de prueba. Disfruta o abre otra herramienta m&#xe1;s &#xfa;til&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem43ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem44">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="18. Distribuci&#xf3;n de Paneles*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta de prueba. Disfruta o abre otra herramienta m&#xe1;s &#xfa;til&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem44ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem45">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="19. Calcular Art&#xed;culos"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Herramienta que te permite calcular el precio de una o varias unidades de un art&#xed;culo&lt;br/&gt;&#xa;Puedes configurar los Porcientos (%) de descuento y de impuestos que desees&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem45ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem46">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="20. Modelos de Cuadro*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;S&#xf3;lo muestra varios nombres y cuando haces clic en un nombre se muestra en otra parte&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem46ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem47">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="21. Pares e Impares*"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;&#xa;Puedes pedir que muestre n&#xfa;meros pares e impares&#xa;&lt;p/&gt;&#xa;&lt;body/&gt;&#xa;&lt;html/&gt;&#xa;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem47ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ayuda y Opciones"/>
+            <Property name="toolTipText" type="java.lang.String" value="Te gu&#xed;a con lo que debes saber para usar esta caja de herramientas "/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="contentMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ImagenesyLibrerias/Ayuda32x32.png"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="99"/>
+                <Property name="text" type="java.lang.String" value="Ayuda"/>
+                <Property name="toolTipText" type="java.lang.String" value="Te gu&#xed;a con lo que debes saber para usar esta caja de herramientas "/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="contentMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ImagenesyLibrerias/Informacion32x32.png"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="97"/>
+                <Property name="text" type="java.lang.String" value="Acerca de..."/>
+                <Property name="toolTipText" type="java.lang.String" value="Aqu&#xed; est&#xe1;n las fuentes y agradecimientos a los que hicieron este programa posible"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+F4"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ImagenesyLibrerias/salir32x32.png"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="120"/>
+                <Property name="text" type="java.lang.String" value="Salir"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;Sirve para cerrar todo rastro que tengas abierto de este programa&#xa;&lt;br/&gt;&#xa;Recuerda guardar tus datos antes de salir&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Caja de Herramientas - (Rony Stico)"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="menuBar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jToolBar1" alignment="0" pref="760" max="32767" attributes="0"/>
+          <Component id="dskpane" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jToolBar1" min="-2" pref="85" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="dskpane" pref="482" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JDesktopPane" name="dskpane">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JDesktopPane(){&#xa;&#xa;public void paintComponent(Graphics g) {&#xa;g.drawImage(image,0,0,getWidth(),getHeight(),this);&#xa;}&#xa;&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="ImageIcon icon = new ImageIcon(getClass().getResource(&quot;/ImagenesyLibrerias/nuts.jpg&quot;));&#xa;Image image = icon.getImage();"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JToolBar" name="jToolBar1">
+      <Properties>
+        <Property name="floatable" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="94" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ImagenesyLibrerias/Toolboxicon.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Caja de herramientas"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Presiona &quot;Ayuda&quot; para saber todo lo que necesitas"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Creado por Rony Stico"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ImagenesyLibrerias/Ayuda32x32.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ayuda"/>
+            <Property name="toolTipText" type="java.lang.String" value="Te gu&#xed;a con lo que debes saber para usar esta caja de herramientas"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ImagenesyLibrerias/Informacion32x32.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Acerca de..."/>
+            <Property name="toolTipText" type="java.lang.String" value="Aqu&#xed; est&#xe1;n las fuentes y agradecimientos a los que hicieron este programa posible"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ImagenesyLibrerias/exit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+            <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;p&gt;Sirve para cerrar todo rastro que tengas abierto de este programa&#xa;&lt;br/&gt;&#xa;Recuerda guardar tus datos antes de salir&#xa;&lt;/p&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
